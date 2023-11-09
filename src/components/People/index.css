@@ -1,0 +1,16 @@
+.people {
+  list-style-type: none;
+  width: 25%;
+}
+.people-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 3%;
+}
+.people-main-container {
+  background-color: black;
+  padding: 5%;
+  margin-bottom: 2%;
+  border-radius: 25px;
+}

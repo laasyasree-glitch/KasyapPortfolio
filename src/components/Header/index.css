@@ -1,5 +1,6 @@
 .header {
   color: #ffffff;
+  text-align: center;
 }
 nav {
   display: flex;
@@ -70,4 +71,7 @@ nav {
   #navbar-larger {
     display: none;
   }
+}
+.projects {
+  background-color: #ffffff;
 }

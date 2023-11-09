@@ -5,6 +5,7 @@ import { FaBook } from "react-icons/fa";
 import { BsArrowUpRight } from "react-icons/bs";
 import { IoMdPhotos } from "react-icons/io";
 import { BiSolidContact } from "react-icons/bi";
+import { GrProjects } from "react-icons/gr";
 import "./index.css";
 const Header = () => (
   <nav className="fixed-top">
@@ -27,6 +28,9 @@ const Header = () => (
         </li>
         <li>
           <a href="/">Arts_Poetry_Books</a>
+        </li>
+        <li>
+          <a href="#sectionProjects">Projects</a>
         </li>
         <li>
           <a href="/">Patents</a>
@@ -60,6 +64,11 @@ const Header = () => (
         <li>
           <a href="/">
             <FaBook />
+          </a>
+        </li>
+        <li>
+          <a href="#sectionProjects">
+            <GrProjects className="projects" />
           </a>
         </li>
         <li>

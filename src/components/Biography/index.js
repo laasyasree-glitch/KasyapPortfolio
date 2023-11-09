@@ -1,6 +1,19 @@
+import "./index.css";
 const Biography = () => (
-  <div>
-    <p>
+  <div className="container">
+    <img
+      className="image"
+      alt="profile"
+      src="https://res.cloudinary.com/dxlyuzv7w/image/upload/v1627660021/samples/people/boy-snow-hoodie.jpg"
+    />
+    <div className="sub-container">
+      <p>
+        Undergraduate Student <br />
+        VIT AP University
+      </p>
+    </div>
+
+    <p className="description">
       Kasyap is a driven and accomplished computer science and AI researcher,
       currently pursuing a Bachelor of Technology in Computer Science and
       Engineering at VIT-AP University. With a strong foundation in his field,

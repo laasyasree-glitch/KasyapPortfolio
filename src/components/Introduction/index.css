@@ -1,0 +1,34 @@
+.intro-description {
+  text-align: center;
+  width: 70%;
+  margin: 3%;
+}
+.intro-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 5%;
+  margin-bottom: 2%;
+  border-radius: 25px;
+}
+.intro-image {
+  width: 25%;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .intro-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro-description {
+    text-align: center;
+    width: 100%;
+    order: 2;
+  }
+  .intro-image {
+    width: 80%;
+    border-radius: 25px;
+  }
+}

@@ -3,6 +3,7 @@ import "./App.css";
 import Introduction from "./components/Introduction";
 import People from "./components/People";
 import Header from "./components/Header";
+import Projects from "./components/Projects";
 import { Component } from "react";
 
 class App extends Component {
@@ -19,6 +20,9 @@ class App extends Component {
           </div>
           <div id="sectionPeople">
             <People />
+          </div>
+          <div id="sectionProjects">
+            <Projects />
           </div>
         </div>
       </div>

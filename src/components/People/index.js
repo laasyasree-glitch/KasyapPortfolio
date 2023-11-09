@@ -1,4 +1,5 @@
 import { Component } from "react";
+import "./index.css";
 
 const people = [
   {
@@ -46,13 +47,16 @@ const people = [
 class People extends Component {
   render() {
     return (
-      <ul>
-        {people.map((x) => (
-          <li key={x.id}>
-            <h2>{x.name}</h2>
-          </li>
-        ))}
-      </ul>
+      <div className="people-main-container">
+        <h1>Members Of the Team</h1>
+        <ul className="people-container">
+          {people.map((x) => (
+            <li key={x.id} className="people">
+              <h2>{x.name}</h2>
+            </li>
+          ))}
+        </ul>
+      </div>
     );
   }
 }

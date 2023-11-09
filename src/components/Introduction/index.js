@@ -1,6 +1,7 @@
+import "./index.css";
 const Introduction = () => (
-  <div>
-    <p>
+  <div className="intro-container">
+    <p className="intro-description">
       We are engaged in fundamental research in the fields of computer vision
       and machine learning, with a specific focus on applications in healthcare.
       Our research spans various interdisciplinary areas, including autism
@@ -20,6 +21,11 @@ const Introduction = () => (
       academic records. You can also contact Dr. D. Sumathi for further
       inquiries and information.
     </p>
+    <img
+      className="intro-image"
+      alt="team"
+      src="https://res.cloudinary.com/dxlyuzv7w/image/upload/v1699505089/intor_knryab.png"
+    />
   </div>
 );
 

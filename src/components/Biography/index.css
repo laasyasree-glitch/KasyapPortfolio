@@ -1,0 +1,39 @@
+.description {
+  text-align: center;
+  width: 50%;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 5%;
+  margin-bottom: 2%;
+  border-radius: 25px;
+}
+.image {
+  width: 15%;
+  border-radius: 25px;
+}
+.sub-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .description {
+    text-align: center;
+    width: 100%;
+    margin-top: 3%;
+  }
+  .image {
+    width: 50%;
+    margin-bottom: 2%;
+  }
+}
