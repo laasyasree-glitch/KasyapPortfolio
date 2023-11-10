@@ -5,8 +5,10 @@ const ProjectItem = (props) => {
   return (
     <div className="card">
       <img className="card-image" alt="project" src={imageUrl} />
-      <h1 className="card-title">{heading}</h1>
-      <p className="card-description">{description}</p>
+      <div className="sub-card">
+        <h1 className="card-title">{heading}</h1>
+        <p className="card-description">{description}</p>
+      </div>
     </div>
   );
 };

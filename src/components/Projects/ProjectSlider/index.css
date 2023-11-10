@@ -1,9 +1,11 @@
 .slick-prev {
-  left: 3% !important;
+  left: 3%;
   z-index: 1;
+  margin: auto;
 }
 
 .slick-next {
-  right: 3% !important;
+  right: 3%;
   z-index: 1;
+  margin: auto;
 }

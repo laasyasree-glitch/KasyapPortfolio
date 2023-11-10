@@ -1,6 +1,11 @@
 .description {
-  text-align: center;
-  width: 50%;
+  width: 80%;
+}
+li {
+  margin-bottom: 2%;
+}
+.details {
+  font-weight: bold;
 }
 .container {
   display: flex;
@@ -11,12 +16,14 @@
   border-radius: 25px;
 }
 .image {
-  width: 15%;
-  border-radius: 25px;
+  border-radius: 100px;
+  width: 50%;
+  border-radius: 50%;
+  margin-bottom: 3%;
 }
 .sub-container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
   text-align: center;
 }
@@ -28,7 +35,6 @@
     align-items: center;
   }
   .description {
-    text-align: center;
     width: 100%;
     margin-top: 3%;
   }

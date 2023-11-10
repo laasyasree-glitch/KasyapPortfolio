@@ -1,5 +1,4 @@
 .intro-description {
-  text-align: center;
   width: 70%;
   margin: 3%;
 }
@@ -23,7 +22,6 @@
     align-items: center;
   }
   .intro-description {
-    text-align: center;
     width: 100%;
     order: 2;
   }
