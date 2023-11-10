@@ -10,8 +10,12 @@ const projectList = [
       "Design and Development of Autonomous Underwater Vehicle: Ocean Voyager",
     description:
       "Focused on creating smart algorithms for AUVs, enabling autonomous underwater vision-guided navigation. Worked on SIFT algorithm (Difference of Gaussians and Space Generation) to describe local features under water.",
-    skillsUsed:
-      "Underwater robotics, Sensor integration, Control systems, System integration",
+    skillsUsed: [
+      "Underwater robotics",
+      "Sensor integration",
+      "Control systems",
+      "System integration",
+    ],
   },
   {
     id: 2,
@@ -20,8 +24,13 @@ const projectList = [
     heading: "Water to Cloud: Realtime River Monitoring System",
     description:
       "Encompasses setting up sensors in rivers, gathering data like water quality, temp., pH, and revealing correlations. Used fog computing to establish a seamless and efficient system, ensuring data reliability and timely insights.",
-    skillsUsed:
-      "Cloud computing, Remote monitoring, Real-time visualization, GIS Mapping, System scalability.",
+    skillsUsed: [
+      "Cloud computing",
+      "Remote monitoring",
+      "Real-time visualization",
+      "GIS Mapping",
+      "System scalability.",
+    ],
   },
   {
     id: 3,
@@ -41,6 +50,7 @@ const projectList = [
     heading: "Frontier Forge: Dynamic 3D Scene Generation in Virtual Reality",
     description:
       "Created immersive VR environments through AI and generating dynamic 3D scenes enhancing VR interactions. Incorporating 3D Artificial Intelligence models with AR and VR sets with motion-based audio and music generation.",
+    skillsUsed: null,
   },
   {
     id: 5,
@@ -49,6 +59,7 @@ const projectList = [
     heading: "Contactless Heart Rate monitoring using Hartley Transform and AI",
     description:
       "Applied Hartley Transform for remote heart rate monitoring, for analyzing cardiovascular and systolic rhythms. Utilised Eulerian Video method and GoogleNet architecture to fabricate accurate non-inavsive heart rate sensor.",
+    skillsUsed: null,
   },
 ];
 

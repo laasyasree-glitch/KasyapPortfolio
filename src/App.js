@@ -5,6 +5,7 @@ import People from "./components/People";
 import Header from "./components/Header";
 import Projects from "./components/Projects";
 import { Component } from "react";
+import Publications from "./components/Publications";
 
 class App extends Component {
   render() {
@@ -23,6 +24,7 @@ class App extends Component {
           </div>
           <div id="sectionProjects">
             <Projects />
+            <Publications />
           </div>
         </div>
       </div>

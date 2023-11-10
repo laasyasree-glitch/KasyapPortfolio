@@ -1,0 +1,13 @@
+.head {
+  color: #ffffff;
+}
+.row-type {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  max-width: 100vw;
+}
+.publication-item {
+  margin: 1%;
+}
