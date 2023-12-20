@@ -20,23 +20,20 @@ const Header = () => (
         </li>
 
         <li>
-          <a href="#sectionIntro">Introduction</a>
+          <a href="#sectionIntro">Know More</a>
         </li>
 
         <li>
-          <a href="#sectionPeople">People</a>
+          <a href="#sectionPeople">Collaborators</a>
+        </li>
+        <li>
+          <a href="#sectionProjects">Research</a>
         </li>
         <li>
           <a href="/">Arts_Poetry_Books</a>
         </li>
         <li>
-          <a href="#sectionProjects">Projects</a>
-        </li>
-        <li>
-          <a href="/">Patents</a>
-        </li>
-        <li>
-          <a href="/">Photos</a>
+          <a href="/">My Stuff</a>
         </li>
         <li>
           <a href="/">Contact</a>

@@ -40,7 +40,7 @@ nav {
 
 #navbar-larger li a:hover,
 #navbar-mobile li a:hover {
-  color: #17cf97;
+  color: #8dbffc;
 }
 
 #navbar-larger li a:hover::after,
@@ -48,7 +48,7 @@ nav {
   content: "";
   width: 30%;
   height: 2px;
-  background: #17cf97;
+  background: #8dbffc;
   position: absolute;
   bottom: -4px;
   left: 20px;

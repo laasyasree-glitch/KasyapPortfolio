@@ -1,11 +1,10 @@
 .intro-description {
   width: 70%;
-  margin: 3%;
+  text-align: justify;
 }
 .intro-container {
   display: flex;
   justify-content: space-between;
-  background-color: black;
   padding: 5%;
   margin-bottom: 2%;
   border-radius: 25px;
