@@ -1,0 +1,29 @@
+/* ProjectSlider.css */
+
+/* Set arrow color to black */
+.custom-arrow {
+  color: black;
+}
+
+/* Position arrows outside the Carousel items */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+.art {
+  width: 50%;
+}
+.art-container {
+  padding-left: 6%;
+}
+.art-img {
+  text-align: center;
+}

@@ -1,7 +1,7 @@
 .name-portfolio {
   color: #ffffff;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 nav {
@@ -9,9 +9,9 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: #1b2430;
-  padding: 10px;
+  padding: 15px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #navbar-larger {
@@ -35,7 +35,7 @@ nav {
 #navbar-mobile li a {
   text-decoration: none;
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #ffffff;
   transition: 0.3s ease-in-out;
   cursor: pointer;
@@ -68,7 +68,7 @@ nav {
   justify-content: center;
   text-decoration: none;
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 500;
   color: #ffffff;
   transition: 0.3s ease-in-out;
   cursor: pointer;

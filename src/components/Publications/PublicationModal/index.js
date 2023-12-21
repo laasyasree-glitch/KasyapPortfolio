@@ -12,15 +12,13 @@ const PublicationModal = (props) => {
           <img className="thumbnail" src={each.imageUrl} alt="imageUrl" />
           <div className="content">
             <h1 className="head">{each.heading}</h1>
-            <br />
             <p>
               Read More :{" "}
               <a href={each.link} className="link">
                 {each.link}
               </a>
             </p>
-            <br />
-            <p className="head">{each.description}</p>
+            <p>{each.description}</p>
           </div>
         </li>
       ))}
