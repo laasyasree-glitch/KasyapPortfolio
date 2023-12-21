@@ -1,30 +1,20 @@
 import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import Carousel from "react-bootstrap/Carousel";
 import ProjectItem from "../ProjectItem";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 
 const ProjectSlider = (props) => {
   const { projectsList } = props;
 
-  const settings = {
-    className: "center",
-    infinite: true,
-    centerPadding: "60px",
-    slidesToShow: 1,
-    swipeToSlide: true,
-    centerPadding: "0",
-  };
-
   return (
-    <Slider {...settings}>
+    <Carousel data-bs-theme="light">
       {projectsList.map((eachItem) => (
-        <div key={eachItem.id}>
-          <ProjectItem key={eachItem.id} details={eachItem} />
-        </div>
+        <Carousel.Item key={eachItem.id}>
+          <ProjectItem details={eachItem} />
+        </Carousel.Item>
       ))}
-    </Slider>
+    </Carousel>
   );
 };
 

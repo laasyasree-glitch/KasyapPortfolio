@@ -12,6 +12,8 @@ class App extends Component {
     return (
       <div>
         <Header />
+        <br />
+        <br />
         <div className="content">
           <div id="sectionBio">
             <Biography />

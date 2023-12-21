@@ -72,7 +72,7 @@ class People extends Component {
         <ul className="people-container">
           {people.map((x) => (
             <li key={x.id} className="people">
-              <img className="profile-img" src={x.images} />
+              <img className="profile-img" src={x.images} alt={x.name} />
               <p>{x.name}</p>
             </li>
           ))}

@@ -8,9 +8,9 @@ import { BiSolidContact } from "react-icons/bi";
 import { GrProjects } from "react-icons/gr";
 import "./index.css";
 const Header = () => (
-  <nav className="fixed-top">
+  <nav>
     <div>
-      <h1 className="header">Varanasi Kasyap</h1>
+      <h1 className="name-portfolio">Varanasi Kasyap</h1>
     </div>
 
     <div>
@@ -65,7 +65,7 @@ const Header = () => (
         </li>
         <li>
           <a href="#sectionProjects">
-            <GrProjects className="projects" />
+            <GrProjects className="head-projects" />
           </a>
         </li>
         <li>

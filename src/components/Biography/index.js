@@ -1,14 +1,14 @@
 import "./index.css";
 const Biography = () => (
-  <div className="container">
-    <div className="sub-container">
+  <div className="bio-container">
+    <div className="bio-sub-container">
       <img
-        className="image"
+        className="bio-image"
         alt="profile"
         src="https://res.cloudinary.com/dp4e9sqxj/image/upload/v1699590357/bafzsvgrosbp4k3jh0zj.jpg"
       />
 
-      <p className="details">
+      <p className="bio-details">
         Undergraduate Student <br /> <br />
         Vellore Institute Of Technology
         <br />
@@ -17,7 +17,7 @@ const Biography = () => (
         University
       </p>
     </div>
-    <p className="description">
+    <p className="bio-description">
       Kasyap is a driven and accomplished computer science and AI researcher,
       currently pursuing a Bachelor of Technology in Computer Science and
       Engineering at VIT-AP University. With a strong foundation in his field,

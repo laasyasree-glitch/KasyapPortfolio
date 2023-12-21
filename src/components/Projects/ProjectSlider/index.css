@@ -1,24 +1,19 @@
-.slick-slide {
-  outline: none !important;
-  border: none !important;
-}
+/* ProjectSlider.css */
 
-.slick-prev:before,
-.slick-next:before {
+/* Set arrow color to black */
+.custom-arrow {
   color: black;
-  font-size: 20px;
-}
-.slick-prev,
-.slick-next {
-  background-color: #ffffff; /* Set a background color for better visibility */
 }
 
-.slick-slide {
-  outline: none !important;
-  border: none !important;
-  padding-right: 0 !important;
+/* Position arrows outside the Carousel items */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.slick-track {
-  border: none !important;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
 }

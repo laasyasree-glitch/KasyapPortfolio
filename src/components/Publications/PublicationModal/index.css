@@ -1,7 +1,4 @@
-/* .head {
-  color: #ffffff;
-} */
-.row-type {
+/*.row-type {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -10,4 +7,35 @@
 }
 .publication-item {
   margin: 1%;
+}*/
+.publications {
+  max-width: 100vw;
+}
+.publications-content {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.content {
+  padding: 3%;
+  max-width: 100%;
+  align-self: center;
+}
+.head {
+  font-size: 15px;
+}
+.thumbnail {
+  width: 600px;
+}
+.link {
+  font-size: 15px;
+}
+@media screen and (max-width: 768px) {
+  .publications-content {
+    flex-direction: column;
+  }
+  .thumbnail {
+    width: 100%;
+  }
 }

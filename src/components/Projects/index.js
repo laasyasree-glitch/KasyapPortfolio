@@ -68,6 +68,7 @@ class Projects extends Component {
     return (
       <div className="project-card">
         <h1>Projects</h1>
+        <br />
         <ProjectSlider projectsList={projectList} />
       </div>
     );
