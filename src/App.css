@@ -45,8 +45,18 @@
 * {
   font-family: sans-serif;
 }
-.content {
-  padding: 2%;
-  background-color: #ffffff;
-  color: #151d2c;
+
+.each-component {
+  padding: 4%;
+  max-width: 100vw;
+  font-family: "Montserrat";
+}
+.whole-body {
+  margin-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .whole-body {
+    margin-top: 150px;
+  } /* Adjust for small devices */
 }

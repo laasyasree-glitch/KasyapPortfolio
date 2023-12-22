@@ -1,7 +1,7 @@
 import { BsFillPersonVcardFill } from "react-icons/bs";
 import { FaLaptop } from "react-icons/fa";
 import { BsFillPeopleFill } from "react-icons/bs";
-import { FaBook } from "react-icons/fa";
+// import { FaBook } from "react-icons/fa";
 import { BsArrowUpRight } from "react-icons/bs";
 import { IoMdPhotos } from "react-icons/io";
 import { BiSolidContact } from "react-icons/bi";
@@ -30,12 +30,11 @@ const Header = () => (
           <a href="#sectionProjects">Research</a>
         </li>
         <li>
-          <a href="#sectionPatent">My Stuff</a>
-        </li>
-        <li>
           <a href="#sectionArts">Arts_Poetry_Books</a>
         </li>
-
+        <li>
+          <a href="/">My Stuff</a>
+        </li>
         <li>
           <a href="#sectionContact">Contact</a>
         </li>
@@ -60,17 +59,12 @@ const Header = () => (
           </a>
         </li>
         <li>
-          <a href="/">
-            <FaBook />
-          </a>
-        </li>
-        <li>
           <a href="#sectionProjects">
             <GrProjects className="head-projects" />
           </a>
         </li>
         <li>
-          <a href="/">
+          <a href="#sectionArts">
             <BsArrowUpRight />
           </a>
         </li>
@@ -80,7 +74,7 @@ const Header = () => (
           </a>
         </li>
         <li>
-          <a href="/">
+          <a href="sectionContact">
             <BiSolidContact />
           </a>
         </li>

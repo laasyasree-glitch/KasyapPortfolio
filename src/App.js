@@ -16,24 +16,23 @@ class App extends Component {
         <Header />
         <br />
         <br />
-        <div className="content">
-          <div id="sectionBio">
+        <div className="whole-body">
+          <div id="sectionBio" className="each-component">
             <Biography />
           </div>
-          <div id="sectionIntro">
+          <div id="sectionIntro" className="each-component">
             <Introduction />
           </div>
-          <div id="sectionPeople">
+          <div id="sectionPeople" className="each-component">
             <People />
           </div>
-          <div id="sectionProjects">
+          <div id="sectionProjects" className="each-component">
             <Projects />
             <Publications />
-          </div>
-          <div id="sectionPatent">
             <Patent />
           </div>
-          <div id="sectionArts">
+
+          <div id="sectionArts" className="each-component">
             <Arts />
           </div>
         </div>

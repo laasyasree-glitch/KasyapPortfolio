@@ -5,13 +5,18 @@
 .intro-container {
   display: flex;
   justify-content: space-between;
-  padding: 5%;
+  /* padding: 5%; */
   margin-bottom: 2%;
   border-radius: 25px;
 }
 .intro-image {
   width: 25%;
   border-radius: 25px;
+}
+
+.highlight {
+  color: #f51e1e;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 768px) {

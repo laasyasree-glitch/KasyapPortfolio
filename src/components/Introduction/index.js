@@ -15,7 +15,8 @@ const Introduction = () => (
       of machine learning methods inspired by child development and the
       exploration of biologically-inspired approaches to robot navigation and
       control.
-      <span>
+      <br />
+      <span className="highlight">
         Prospective Students: If you are interested in becoming a part of our
         research group and are not currently affiliated with VIT, we encourage
         you to apply directly to the university. For current VIT students,
@@ -24,6 +25,7 @@ const Introduction = () => (
         inquiries and information.
       </span>
     </p>
+
     <img
       className="intro-image"
       alt="team"

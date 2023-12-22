@@ -3,6 +3,8 @@
 import "./index.css";
 //import "reactjs-popup/dist/index.css";
 //import { each } from "immer/dist/internal";
+import { FiPaperclip } from "react-icons/fi";
+
 const PublicationModal = (props) => {
   const { publicationsList } = props;
   return (
@@ -11,13 +13,14 @@ const PublicationModal = (props) => {
         <li className="publications-content" key={each.id}>
           <img className="thumbnail" src={each.imageUrl} alt="imageUrl" />
           <div className="content">
-            <h1 className="head">{each.heading}</h1>
-            <p>
-              Read More :{" "}
+            <h1 className="head">
+              {each.heading}
+              {"  "}
               <a href={each.link} className="link">
-                {each.link}
+                <FiPaperclip />
               </a>
-            </p>
+            </h1>
+
             <p>{each.description}</p>
           </div>
         </li>

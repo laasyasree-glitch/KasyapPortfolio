@@ -1,8 +1,13 @@
-.publications-card {
-  padding: 3%;
-  padding-top: 0%;
+/* .publications-card {
+  padding: 3%; 
+   padding-top: 0%;
   max-width: 100vw;
+} */
+.publications-card {
+  max-width: 100vw;
+  box-sizing: border-box; /* Include padding and border in the total width/height */
 }
+
 .heading {
   margin-top: 1%;
   margin-bottom: 1%;

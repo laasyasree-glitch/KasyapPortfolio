@@ -4,26 +4,29 @@
   color: #ffffff;
   font-size: 18px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
-
+.contact-header {
+  font-size: 25px;
+}
 .contact-me {
-  width: 55%;
+  align-self: center;
 }
 .developer {
-  align-self: center;
-  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .icon {
   color: #0070fa;
   background-color: #ffffff;
   border-radius: 50%;
   transition: color 0.3s ease;
-  padding: 6px; /* Adjust padding as needed */
+  padding: 6px;
   font-size: 35px;
-  margin: 5px; /* Adjust margin to control space between icons */
-  display: inline-block; /* Ensures circular border works properly */
+  margin: 8px;
+  display: inline-block;
 }
 
 .icon:hover {
@@ -34,9 +37,17 @@
   display: flex;
   flex-direction: row;
 }
+.copyright {
+  align-self: flex-start;
+}
 
-@media screen and(max-width: 768px) {
+@media screen and (max-width: 768px) {
   .contact-container {
     flex-direction: column;
+    justify-content: space-around;
   }
+}
+.contact-header {
+  color: #0070fa;
+  font-weight: bolder;
 }

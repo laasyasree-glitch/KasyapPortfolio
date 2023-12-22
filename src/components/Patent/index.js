@@ -1,9 +1,9 @@
 import "./index.css";
-import { FaArrowRightLong } from "react-icons/fa6";
 import { TbSquareRoundedNumber1Filled } from "react-icons/tb";
 import { TbSquareRoundedNumber2Filled } from "react-icons/tb";
 import { TbSquareRoundedNumber3Filled } from "react-icons/tb";
 import { TbSquareRoundedNumber4Filled } from "react-icons/tb";
+import { MdOutlinePublish } from "react-icons/md";
 
 const patentList = [
   {
@@ -48,12 +48,10 @@ const Patent = () => (
         <li key={each.id}>
           <p>
             {each.componentName} {"  "}
-            {each.heading}
-          </p>
-          <p className="patent-link">
-            Click Here <FaArrowRightLong />
-            {"               "}
-            <a href={each.link}>{each.link}</a>
+            {each.heading} {"  "}
+            <a href={each.link}>
+              <MdOutlinePublish className="patent-link" />
+            </a>
           </p>
         </li>
       ))}

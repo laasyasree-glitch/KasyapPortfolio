@@ -13,8 +13,8 @@
 .people-main-container {
   margin-bottom: 1%;
   border-radius: 25px;
-  padding-left: 5%;
-  padding-right: 5%;
+  /* padding-left: 5%;
+  padding-right: 5%; */
 }
 .profile-img {
   width: 200px;
