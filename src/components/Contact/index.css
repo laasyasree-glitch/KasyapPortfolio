@@ -1,0 +1,42 @@
+.contact-container {
+  padding: 1.5%;
+  background-color: #1b2430;
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-me {
+  width: 55%;
+}
+.developer {
+  align-self: center;
+  width: 30%;
+}
+.icon {
+  color: #0070fa;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transition: color 0.3s ease;
+  padding: 6px; /* Adjust padding as needed */
+  font-size: 35px;
+  margin: 5px; /* Adjust margin to control space between icons */
+  display: inline-block; /* Ensures circular border works properly */
+}
+
+.icon:hover {
+  color: #ffffff !important;
+  background-color: #0070fa;
+}
+.icons-list {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and(max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+}

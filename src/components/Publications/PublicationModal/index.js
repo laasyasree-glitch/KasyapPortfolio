@@ -8,7 +8,7 @@ const PublicationModal = (props) => {
   return (
     <ul className="publications">
       {publicationsList.map((each) => (
-        <li className="publications-content">
+        <li className="publications-content" key={each.id}>
           <img className="thumbnail" src={each.imageUrl} alt="imageUrl" />
           <div className="content">
             <h1 className="head">{each.heading}</h1>

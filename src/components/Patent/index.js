@@ -45,7 +45,7 @@ const Patent = () => (
     <br />
     <ol className="patent-list">
       {patentList.map((each) => (
-        <li>
+        <li key={each.id}>
           <p>
             {each.componentName} {"  "}
             {each.heading}

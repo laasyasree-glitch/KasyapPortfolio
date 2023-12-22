@@ -30,13 +30,14 @@ const Header = () => (
           <a href="#sectionProjects">Research</a>
         </li>
         <li>
-          <a href="/">Arts_Poetry_Books</a>
+          <a href="#sectionPatent">My Stuff</a>
         </li>
         <li>
-          <a href="/">My Stuff</a>
+          <a href="#sectionArts">Arts_Poetry_Books</a>
         </li>
+
         <li>
-          <a href="/">Contact</a>
+          <a href="#sectionContact">Contact</a>
         </li>
       </ul>
 

@@ -8,6 +8,7 @@ import { Component } from "react";
 import Publications from "./components/Publications";
 import Patent from "./components/Patent";
 import Arts from "./components/Arts";
+import Contact from "./components/Contact";
 class App extends Component {
   render() {
     return (
@@ -28,11 +29,16 @@ class App extends Component {
           <div id="sectionProjects">
             <Projects />
             <Publications />
+          </div>
+          <div id="sectionPatent">
             <Patent />
           </div>
-          <div>
+          <div id="sectionArts">
             <Arts />
           </div>
+        </div>
+        <div id="sectionContact">
+          <Contact />
         </div>
       </div>
     );
