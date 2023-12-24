@@ -68,7 +68,7 @@ class People extends Component {
   render() {
     return (
       <div className="people-main-container">
-        <h1>Members Of the Team</h1>
+        <h1>Collabrators</h1>
         <ul className="people-container">
           {people.map((x) => (
             <li key={x.id} className="people">

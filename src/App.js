@@ -9,6 +9,7 @@ import Publications from "./components/Publications";
 import Patent from "./components/Patent";
 import Arts from "./components/Arts";
 import Contact from "./components/Contact";
+import VisitorCount from "./components/VisitorCount";
 class App extends Component {
   render() {
     return (
@@ -18,6 +19,8 @@ class App extends Component {
         <br />
         <div className="whole-body">
           <div id="sectionBio" className="each-component">
+            <VisitorCount />
+
             <Biography />
           </div>
           <div id="sectionIntro" className="each-component">

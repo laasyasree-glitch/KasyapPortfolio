@@ -1,0 +1,8 @@
+.visitors {
+  text-align: end;
+  font-size: 25px;
+}
+.count {
+  color: red;
+  font-weight: bold;
+}
