@@ -98,10 +98,6 @@ nav {
   ); /* Optional: Add a background color on hover for better visibility */
 }
 
-.head-projects {
-  background-color: #ffffff;
-}
-
 @media screen and (max-width: 769px) {
   nav {
     flex-direction: column;

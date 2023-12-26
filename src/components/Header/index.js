@@ -1,11 +1,10 @@
 import { BsFillPersonVcardFill } from "react-icons/bs";
 import { FaLaptop } from "react-icons/fa";
-import { BsFillPeopleFill } from "react-icons/bs";
-// import { FaBook } from "react-icons/fa";
-import { BsArrowUpRight } from "react-icons/bs";
-import { IoMdPhotos } from "react-icons/io";
+import { FaBook } from "react-icons/fa";
 import { BiSolidContact } from "react-icons/bi";
-import { GrProjects } from "react-icons/gr";
+import { GiArchiveResearch } from "react-icons/gi";
+import { GiTargetPrize } from "react-icons/gi";
+
 import "./index.css";
 const Header = () => (
   <nav>
@@ -22,18 +21,14 @@ const Header = () => (
         <li>
           <a href="#sectionIntro">Know More</a>
         </li>
-
-        <li>
-          <a href="#sectionPeople">Collaborators</a>
-        </li>
         <li>
           <a href="#sectionProjects">Research</a>
         </li>
         <li>
-          <a href="#sectionArts">Arts_Poetry_Books</a>
+          <a href="#sectionAchievements">Achievements</a>
         </li>
         <li>
-          <a href="/">My Stuff</a>
+          <a href="#sectionResume">Resume</a>
         </li>
         <li>
           <a href="#sectionContact">Contact</a>
@@ -52,29 +47,24 @@ const Header = () => (
             <FaLaptop />
           </a>
         </li>
-
         <li>
-          <a href="#sectionPeople">
-            <BsFillPeopleFill />
+          <a href="#sectionProjects">
+            <GiArchiveResearch className="head-projects" />
           </a>
         </li>
         <li>
           <a href="#sectionProjects">
-            <GrProjects className="head-projects" />
+            <GiTargetPrize className="head-projects" />
+          </a>
+        </li>
+
+        <li>
+          <a href="#sectionResume">
+            <FaBook className="head-projects" />
           </a>
         </li>
         <li>
-          <a href="#sectionArts">
-            <BsArrowUpRight />
-          </a>
-        </li>
-        <li>
-          <a href="/">
-            <IoMdPhotos />
-          </a>
-        </li>
-        <li>
-          <a href="sectionContact">
+          <a href="#sectionContact">
             <BiSolidContact />
           </a>
         </li>

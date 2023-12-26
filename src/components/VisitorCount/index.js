@@ -31,7 +31,7 @@ class VisitorCount extends Component {
     return (
       <div>
         <h1 className="visitors">
-          Visitors Count: <span className="count">{count}</span>
+          Visits: <span className="count">{count}</span>
         </h1>
       </div>
     );

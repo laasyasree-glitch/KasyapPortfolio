@@ -1,0 +1,18 @@
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.resume {
+  align-self: flex-start;
+}
+.resume-display {
+  width: 60%;
+  height: 900px;
+}
+@media screen and (max-width: 768px) {
+  .resume-display {
+    width: 100%;
+    height: 480px;
+  }
+}

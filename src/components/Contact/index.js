@@ -8,6 +8,7 @@ import { MdAddCall } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa6";
 import { FaRegCopyright } from "react-icons/fa";
+import VisitorCount from "../VisitorCount";
 
 import "./index.css";
 
@@ -99,6 +100,7 @@ const Contact = () => (
           {"  "}Copyright reserved Varanasi Kasyap, 2023
         </p>
       </div>
+      <VisitorCount />
     </div>
   </div>
 );
