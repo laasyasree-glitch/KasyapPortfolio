@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/KasyapPortfolio/static/css/main.761fd068.css",
+    "main.js": "/KasyapPortfolio/static/js/main.ba7c80a6.js",
+    "index.html": "/KasyapPortfolio/index.html",
+    "main.761fd068.css.map": "/KasyapPortfolio/static/css/main.761fd068.css.map",
+    "main.ba7c80a6.js.map": "/KasyapPortfolio/static/js/main.ba7c80a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.761fd068.css",
+    "static/js/main.ba7c80a6.js"
+  ]
+}
