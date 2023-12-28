@@ -5,16 +5,14 @@ const Biography = () => (
       <img
         className="bio-image"
         alt="profile"
-        src="https://res.cloudinary.com/dp4e9sqxj/image/upload/v1699590357/bafzsvgrosbp4k3jh0zj.jpg"
+        src="https://res.cloudinary.com/dxlyuzv7w/image/upload/v1703744574/profile1_n2fhpw.webp"
       />
-
+      <br />
       <p className="bio-details">
-        Undergraduate Student <br /> <br />
-        Vellore Institute Of Technology
+        Deep Learning Research Assistant <br />
+        Harvard University
         <br />
-        Andhra Pradesh
-        <br />
-        University
+        Department of Computer Science Engineering
       </p>
     </div>
     <p className="bio-description">

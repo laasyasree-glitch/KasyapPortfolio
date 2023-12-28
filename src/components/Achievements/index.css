@@ -1,23 +1,12 @@
-.achievements-list {
-  display: flex;
-  justify-content: center;
-  box-sizing: border-box;
-  flex-wrap: wrap;
+.achievements-cont {
+  margin-left: 2%;
+  margin-top: 2%;
 }
-
 .trophy {
   color: gold;
   font-size: 25px;
   margin-right: 2%;
 }
 .ac {
-  text-align: center;
-}
-@media screen and (max-width: 768px) {
-  .achievements-list {
-    flex-direction: column;
-  }
-  .ac {
-    text-align: start;
-  }
+  width: 100%;
 }

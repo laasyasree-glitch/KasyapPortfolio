@@ -8,7 +8,7 @@ const ProjectSlider = (props) => {
   const { projectsList } = props;
 
   return (
-    <Carousel data-bs-theme="light">
+    <Carousel data-bs-theme="light" interval={null}>
       {projectsList.map((eachItem) => (
         <Carousel.Item key={eachItem.id}>
           <ProjectItem details={eachItem} />

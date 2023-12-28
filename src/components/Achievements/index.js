@@ -3,7 +3,7 @@ import "./index.css";
 const Achievements = () => (
   <div>
     <h1>Achievements</h1>
-    <div className="achievements-list">
+    <div className="achievements-cont">
       <p className="ac">
         <GiTrophyCup className="trophy" />
         Ramanujan Young Researcher Awardee 2023 by Govt. of India
@@ -16,7 +16,6 @@ const Achievements = () => (
         <GiTrophyCup className="trophy" />
         Best Undergraduate Research Student Award 2023
       </p>
-
       <p className="ac">
         <GiTrophyCup className="trophy" />
         ICAR-NAHEP 3.0 Third prize Winner
